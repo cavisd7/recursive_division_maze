@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Mazes</title>
+    <link rel="stylesheet" href="public/style.css"/>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='nav-container'>
+        <nav class='navbar'>
+          <div class='name'>
+            <p>MAZE</p>
+          </div>
+          <ul class='list'>
+            <li><button  id="newButton" class="newButton" type="button">New</button></li>
+          </ul>
+          <div class='name'>
+            <h2 id='timer' style="color:white;"><time>00:00:00</time></h1>
+          </div>
+        </nav>
+      </div>
+    <div class="canvas-container">
+      <div style="position: relative;">
+        <canvas id="canvas" 
+          style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id="canvas2" 
+          style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+       </div>
+    </div>
+    </div>
+  </body>
+  <script type="text/javascript" src='public/main.js'></script>
+</html>

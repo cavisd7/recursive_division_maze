@@ -1,0 +1,58 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.nav-container {
+    background-color: rgba(0, 0, 0, 1);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.name {
+    padding: 0;
+    margin: 0;
+}
+
+.name p {
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/*#canvas {
+    height: 100%;
+    width: 100%;
+}*/
+
+.canvas-container {
+    height: calc(100% - 100px);
+    width: 1200px;
+    max-height: 660px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 1);
+}
